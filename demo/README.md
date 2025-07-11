@@ -1,30 +1,26 @@
-# Spring Boot CRUD API
+# 📦 CRUD Product Management API
 
-Bu proje, Spring Boot kullanılarak geliştirilen basit bir RESTful CRUD API uygulamasıdır. PostgreSQL veritabanı ile ürün yönetimi yapılmaktadır.
+This is a **simple CRUD application** developed using Spring Boot. It allows basic product management operations such as creating, reading, updating, and deleting products. The application uses PostgreSQL as the database.
 
-## 🚀 Özellikler
+---
 
-- Ürün ekleme (Create)
-- Ürün listeleme (Read)
-- Ürün güncelleme (Update)
-- Ürün silme (Delete)
-- H2 yerine gerçek veritabanı: PostgreSQL
-- Spring Data JPA
-- Spring Boot 3.x
-- JSON veri ile iletişim
-
-## 🛠️ Teknolojiler
+## ⚙️ Technologies Used
 
 - Java 23
 - Spring Boot 3.5.3
+- Spring Web
 - Spring Data JPA
 - PostgreSQL
-- Maven
-- Hibernate
+- HikariCP
 - Lombok
+- Hibernate
+- Maven
 
-## ⚙️ Uygulama Yapısı
-```
+---
+
+## 🧱 Project Structure
+
+```text
 demo/
 ├── src/
 │   └── main/
@@ -51,4 +47,3 @@ demo/
 │           └── ...
 ├── pom.xml
 └── README.md
-```
